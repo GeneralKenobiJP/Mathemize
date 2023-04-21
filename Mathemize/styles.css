@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk&display=swap');
+
+* {
+    font-family: "Schibsted Grotesk", sans-serif;
+}
+
+#Content{
+    background-color: beige;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 4%;
+    padding-bottom: 2%;
+    width: auto;
+    height: auto;
+}
+
+#Header{
+    border-bottom-style: solid;
+    border-color: rgba(75,75,75,0.6);
+    margin-bottom: 30px;
+}
+
+h1,h4{
+    text-align: center;
+}
+
+h4{
+    font-style: italic;
+}
+
+#FuncAnal{
+    border-bottom-style: solid;
+    border-color: rgba(75,75,75,0.6);
+    margin-bottom: 30px;
+    padding-bottom: 100px;
+    height: 1500px;
+}
+
+#Prompt{
+    width: 60%;
+    padding-bottom: 10px;
+    float: left;
+    height: 700px;
+    padding-left: 50px;
+}
+
+#Tooltip{
+    /*display: table;*/
+    /*position: absolute*/;
+    /*float: right;*/
+    /*width: 40%;*/
+    height: 700px;
+    padding-bottom: 10px;
+    /*max-height: 650px;*/
+    /*max-height: 60%;*/
+    /*vertical-align: top;*/
+}
+
+table{
+    border: solid;
+    border-color: rgba(40,40,40,0.5);
+}
+
+#FuncGraph{
+    /*float: bottom;*/
+    display: none;
+    width: 1300px;
+    height: 800px;
+    /*align-content: center;*/
+    background-color: white;
+    /*padding-bottom: 50px;*/
+}
+
+#Fractals{
+    border-bottom-style: solid;
+    border-color: rgba(75,75,75,0.6);
+    margin-bottom: 30px;
+    padding-bottom: 100px;
+}
+
+#MandelbrotSet,#JuliaSet{
+    padding-left: 50px;
+}
+
+.Headline{
+    text-align: center;
+}
